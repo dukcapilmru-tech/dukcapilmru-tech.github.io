@@ -7,4 +7,4 @@
 
 ##
 
-![LOGO](img/PP-IG-DUKCAPIL-putih.png)
+![LOGO](img/logo-Musi_Rawas_Utara.png)
