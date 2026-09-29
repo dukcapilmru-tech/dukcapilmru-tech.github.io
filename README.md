@@ -7,4 +7,4 @@
 
 ##
 
-![LOGO](img/logo-Musi_Rawas_Utara.png)
+![LOGO](img/asset/logo-Musi_Rawas_Utara.png)
