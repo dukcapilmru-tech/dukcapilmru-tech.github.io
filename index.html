@@ -312,6 +312,12 @@ body{font-family:'Comfortaa',cursive,sans-serif;background:var(--bg);color:var(-
 @media (max-width:768px){.hero-grid{grid-template-columns:1fr !important}.chart-grid{grid-template-columns:1fr !important}.footer-bottom{flex-direction:column;text-align:center}}
 @media (max-width:480px){.nav-container{padding:0 16px}.nav-brand-logo{width:38px;height:45px}.nav-brand-text h1{font-size:.9rem}.nav-brand-text p{display:none}.logo-container{width:130px;height:130px;margin-bottom:18px}.logo-img{width:100px;height:100px}.title{font-size:1.1rem}.subtitle{font-size:.75rem;margin-bottom:22px}.progress-container{max-width:260px}.footer-note-loader{font-size:.68rem;bottom:14px}.back-to-top{width:44px;height:44px;bottom:16px;right:16px}.back-to-top svg{width:18px;height:18px}.modal-share-buttons{grid-template-columns:repeat(2,1fr)}.footer-social-btn{width:44px;height:44px}.footer-social-btn svg{width:20px;height:20px}.program-number{font-size:2rem}}
 @media (max-height:500px){.logo-container{width:100px;height:100px;margin-bottom:12px}.logo-img{width:78px;height:78px}.title{font-size:1rem;margin-bottom:4px}.subtitle{margin-bottom:16px;font-size:.72rem}.loading-text{margin-top:12px}.progress-container{margin-bottom:10px}}
+
+.footer-map-frame{width:100%;height:170px;border:0;border-radius:12px;filter:saturate(.9) brightness(.95);transition:filter .3s,transform .3s;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.footer-map-frame:hover{filter:saturate(1.1);transform:scale(1.02)}
+.footer-map-link{display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:.8rem;color:#4caf50;font-weight:600;text-decoration:none;transition:gap .3s}
+.footer-map-link:hover{gap:10px;color:#f59e0b}
+.footer-map-link svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2.5}
 </style>
 </head>
 <body>
@@ -401,6 +407,7 @@ body{font-family:'Comfortaa',cursive,sans-serif;background:var(--bg);color:var(-
           <a href="#statistik" class="nav-link-item">Statistik</a>
           <a href="#program" class="nav-link-item">Program</a>
           <a href="#jadwal" class="nav-link-item">Jadwal</a>
+          <a href="publikasi.html" class="nav-link-item">Publikasi</a>
           <a href="#kontak" class="nav-link-item">Kontak</a>
         </div>
         <div class="nav-right">
@@ -418,6 +425,7 @@ body{font-family:'Comfortaa',cursive,sans-serif;background:var(--bg);color:var(-
         <a href="#statistik" onclick="closeMobileMenu()">Statistik</a>
         <a href="#program" onclick="closeMobileMenu()">Program</a>
         <a href="#jadwal" onclick="closeMobileMenu()">Jadwal</a>
+        <a href="#publikasi" onclick="closeMobileMenu()">Publikasi</a>
         <a href="#kontak" onclick="closeMobileMenu()">Kontak</a>
       </div>
     </nav>
@@ -680,6 +688,7 @@ body{font-family:'Comfortaa',cursive,sans-serif;background:var(--bg);color:var(-
             </div>
             <div class="footer-handle"><div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><strong>@disdukcapil.muratara</strong></div></div>
           </div>
+<div class="footer-section footer-reveal"><h4>Lokasi Kami</h4><iframe class="footer-map-frame" src="https://maps.google.com/maps?q=-3.25,103.35+(DUKCAPIL+Musi+Rawas+Utara)&z=15&output=embed" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Peta lokasi Dinas Kependudukan dan Pencatatan Sipil Kabupaten Musi Rawas Utara"></iframe><a class="footer-map-link" href="https://www.google.com/maps?q=-3.25,103.35" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Buka di Google Maps</a></div>
         </div>
         <div class="footer-bottom-glow"></div>
         <div class="footer-bottom">
