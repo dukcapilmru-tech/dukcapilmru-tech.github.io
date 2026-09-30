@@ -7,4 +7,4 @@
 
 ##
 
-![LOGO](img/asset/PP-IG-DUKCAPIL-putih.png)
+![LOGO](img/asset/PP-IG-DUKCAPIL-hitam.png)
